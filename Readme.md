@@ -9,12 +9,21 @@ Materials/Method/Ackknowledgementに相当するセクション
 
 ## 方法
 ### 対象セクションのセレクション
+謝辞/方法/材料 に関するセクションを対象とする。
 #### まず、要素（タグ）の定義を確認
 - https://jats.nlm.nih.gov/publishing/tag-library/1.4/index.html
 - https://pmc.ncbi.nlm.nih.gov/tagging-guidelines/article/tags/
+いずれも、謝辞/方法/材料はタグ名になっていない。
 #### 利用されているタグを確認
 以下の一部の集計結果を確認する
 - /Volumes/Public/BANK/PMC/2026/stat/PMC001xxxxxx/Ty3.count
 - /Volumes/Public/BANK/PMC/2026/stat/PMC003xxxxxx/Ty3.count
-
-
+検索ターム
+- 謝辞
+-- "acknowledgement"
+- 方法
+-- "method"
+- 材料
+-- "material"
+-- "data"
+-- "resource"
