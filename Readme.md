@@ -14,6 +14,7 @@ Materials/Method/Ackknowledgementに相当するセクション
 - https://pmc.ncbi.nlm.nih.gov/tagging-guidelines/article/tags/
 いずれも、謝辞/方法/材料はタグ名になっていない。
 したがって<sec>の属性を検索する。
+<sec>の直下の要素に章<title>がある場合がある。
 #### 利用されているタグを確認
 以下の一部の集計結果を確認する
 - /Volumes/Public/BANK/PMC/2026/stat/PMC001xxxxxx/Ty3.count
