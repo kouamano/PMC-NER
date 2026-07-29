@@ -1,0 +1,3 @@
+cd /Volumes/Public/BANK/PMC/2026/xml
+tail +2 oa_noncomm_xml.PMC005xxxxxx.baseline.2026-01-23.filelist.csv | \
+while read file; do xtq in=${file%%,*} blocks=500000 buff=10000000 -pBS -n > ${file%%,*}.blk; done
