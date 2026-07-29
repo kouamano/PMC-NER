@@ -16,9 +16,10 @@ Materials/Method/Ackknowledgementに相当するセクション
 したがって<sec>の属性（sec-type）を検索する。
 <sec>の直下の要素に章<title>がある場合がある。
 #### 利用されているタグを確認
-以下の一部の集計結果を確認する
+以下の一部の集計結果を確認する：
 - /Volumes/Public/BANK/PMC/2026/stat/PMC001xxxxxx/Ty3.count
 - /Volumes/Public/BANK/PMC/2026/stat/PMC003xxxxxx/Ty3.count
+
 タグ用の検索ターム：
 - 謝辞
 -- "acknowledgement"
@@ -29,7 +30,9 @@ Materials/Method/Ackknowledgementに相当するセクション
 -- "data"
 -- "resource"
 -- "object" <- 不採用
+
 検索ポリシー：
 謝辞を単体で検索、方法・材料はまとめて検索（後者は同一secの可能性があるので）
+
 ツール：
 xmllintでよさそう。
