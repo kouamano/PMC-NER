@@ -31,3 +31,5 @@ Materials/Method/Ackknowledgementに相当するセクション
 -- "object" <- 不採用
 検索ポリシー：
 謝辞を単体で検索、方法・材料はまとめて検索（後者は同一secの可能性があるので）
+ツール：
+xmllintでよさそう。
