@@ -1,0 +1,23 @@
+#!/bin/bash
+xmllint --xpath \
+'//sec[
+    contains(translate(@sec-type,
+                       "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                       "abcdefghijklmnopqrstuvwxyz"),
+             "material")
+    or
+    contains(translate(@sec-type,
+                       "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                       "abcdefghijklmnopqrstuvwxyz"),
+             "method")
+    or
+    contains(translate(@sec-type,
+                       "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                       "abcdefghijklmnopqrstuvwxyz"),
+             "data")
+    or
+    contains(translate(@sec-type,
+                       "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                       "abcdefghijklmnopqrstuvwxyz"),
+             "resource")
+]' $1
