@@ -38,3 +38,6 @@ Materials/Method/Acknowledgementに相当するセクション
 
 ツール：
 xmllintでよさそう。
+
+クリーニング：
+０バイトファイルがあるのでrmする。
