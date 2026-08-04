@@ -1,0 +1,4 @@
+cd /Volumes/Public/BANK/PMC/2026/xml
+echo '/Volumes/Public/BANK/PMC/2026/xml'
+tail +2 oa_noncomm_xml.PMC009xxxxxx.baseline.2026-01-23.filelist.csv | \
+while read file; do  /Volumes/Public/BANK/PMC/2026/exec_command/xmllint_extract_ack ${file%%,*} > /Volumes/Public/BANK/PMC/2026/xml/element/ack/${file%%,*};  done
