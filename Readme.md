@@ -24,14 +24,14 @@ Materials/Method/Acknowledgementに相当するセクション
 #### 抽出
 タグ用の検索ターム：
 - 謝辞
--- "ack"
+  - "ack"
 - 方法
--- "method"
+  - "method"
 - 材料
--- "material"
--- "data"
--- "resource"
--- "object" <- 不採用
+  - "material"
+  - "data"
+  - "resource"
+  - "object" <- 不採用
 
 検索ポリシー：
 - 謝辞：<ack>を検索
