@@ -34,7 +34,7 @@ Materials/Method/Acknowledgementに相当するセクション
   - "object" <- 不採用
 
 検索ポリシー：
-- 謝辞：<ack>を検索
+- 謝辞：\<ack\>を検索
 - 方法・材料：<sec>の属性sec-typeの属性値として検索
 
 ツール：
