@@ -21,6 +21,7 @@ Materials/Method/Acknowledgementに相当するセクション
 - /Volumes/Public/BANK/PMC/2026/stat/PMC001xxxxxx/Ty3.count
 - /Volumes/Public/BANK/PMC/2026/stat/PMC003xxxxxx/Ty3.count
 
+#### 抽出
 タグ用の検索ターム：
 - 謝辞
 -- "ack"
@@ -37,7 +38,10 @@ Materials/Method/Acknowledgementに相当するセクション
 - 方法・材料：<sec>の属性sec-typeの属性値として検索
 
 ツール：
-xmllintでよさそう。
+xmllintでよさそう。 -> 抽出完了
 
 クリーニング：
-０バイトファイルがあるのでrmする。
+０バイトファイルがあるのでrmする。 -> クリーニング完了
+
+結果：
+/Volumes/Public/BANK/PMC/2026/xml/element/{ack|material_method_other}
