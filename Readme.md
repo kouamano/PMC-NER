@@ -105,3 +105,5 @@ $ for dir in *; do cd $dir; pwd; ls|wc; cd ../; done
 /share/Public/BANK/PMC/2026/xml/element/material_method_other/PMC012xxxxxx
    174186    174186   2961162
 ```
+
+XMLのクリーニング：xmlタグの除去等のクリーニングを行う。
