@@ -75,3 +75,33 @@ $ for dir in *; do cd $dir; pwd; ls|wc; cd ../; done
 /share/Public/BANK/PMC/2026/xml/element/ack/PMC012xxxxxx
    163364    163364   2777188
 ```
+
+```sh
+$ for dir in *; do cd $dir; pwd; ls|wc; cd ../; done           
+/share/Public/BANK/PMC/2026/xml/element/material_method_other/PMC000xxxxxx
+       95        95      1425
+/share/Public/BANK/PMC/2026/xml/element/material_method_other/PMC001xxxxxx
+     1322      1322     21152
+/share/Public/BANK/PMC/2026/xml/element/material_method_other/PMC002xxxxxx
+    27892     27892    446272
+/share/Public/BANK/PMC/2026/xml/element/material_method_other/PMC003xxxxxx
+    72514     72514   1160224
+/share/Public/BANK/PMC/2026/xml/element/material_method_other/PMC004xxxxxx
+    86909     86909   1390544
+/share/Public/BANK/PMC/2026/xml/element/material_method_other/PMC005xxxxxx
+    87129     87129   1394064
+/share/Public/BANK/PMC/2026/xml/element/material_method_other/PMC006xxxxxx
+    98675     98675   1578800
+/share/Public/BANK/PMC/2026/xml/element/material_method_other/PMC007xxxxxx
+    91319     91319   1461104
+/share/Public/BANK/PMC/2026/xml/element/material_method_other/PMC008xxxxxx
+   106733    106733   1707728
+/share/Public/BANK/PMC/2026/xml/element/material_method_other/PMC009xxxxxx
+   125475    125475   2007600
+/share/Public/BANK/PMC/2026/xml/element/material_method_other/PMC010xxxxxx
+   138561    138561   2355537
+/share/Public/BANK/PMC/2026/xml/element/material_method_other/PMC011xxxxxx
+   193707    193707   3293019
+/share/Public/BANK/PMC/2026/xml/element/material_method_other/PMC012xxxxxx
+   174186    174186   2961162
+```
