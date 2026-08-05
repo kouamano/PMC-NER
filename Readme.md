@@ -45,3 +45,33 @@ xmllintでよさそう。 -> 抽出完了
 
 結果：
 /Volumes/Public/BANK/PMC/2026/xml/element/{ack|material_method_other}
+
+```sh
+$ for dir in *; do cd $dir; pwd; ls|wc; cd ../; done
+/share/Public/BANK/PMC/2026/xml/element/ack/PMC000xxxxxx
+       73        73      1095
+/share/Public/BANK/PMC/2026/xml/element/ack/PMC001xxxxxx
+     1554      1554     24864
+/share/Public/BANK/PMC/2026/xml/element/ack/PMC002xxxxxx
+    28137     28137    450192
+/share/Public/BANK/PMC/2026/xml/element/ack/PMC003xxxxxx
+    67671     67671   1082736
+/share/Public/BANK/PMC/2026/xml/element/ack/PMC004xxxxxx
+    74338     74338   1189408
+/share/Public/BANK/PMC/2026/xml/element/ack/PMC005xxxxxx
+    79362     79362   1269792
+/share/Public/BANK/PMC/2026/xml/element/ack/PMC006xxxxxx
+    89577     89577   1433232
+/share/Public/BANK/PMC/2026/xml/element/ack/PMC007xxxxxx
+    88049     88049   1408784
+/share/Public/BANK/PMC/2026/xml/element/ack/PMC008xxxxxx
+    99870     99870   1597920
+/share/Public/BANK/PMC/2026/xml/element/ack/PMC009xxxxxx
+   112118    112118   1793888
+/share/Public/BANK/PMC/2026/xml/element/ack/PMC010xxxxxx
+   117292    117292   1993964
+/share/Public/BANK/PMC/2026/xml/element/ack/PMC011xxxxxx
+   179586    179586   3052962
+/share/Public/BANK/PMC/2026/xml/element/ack/PMC012xxxxxx
+   163364    163364   2777188
+```
