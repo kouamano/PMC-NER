@@ -44,7 +44,7 @@ xmllintでよさそう。 -> 抽出完了
 ０バイトファイルがあるのでrmする。 -> クリーニング完了
 
 結果：
-/Volumes/Public/BANK/PMC/2026/xml/element/{ack|material_method_other}
+/Volumes/Public/BANK/PMC/2026/xml/element/{ack|material_method_other} （ファイルリストまで作成済み）
 
 ```sh
 $ for dir in *; do cd $dir; pwd; ls|wc; cd ../; done
