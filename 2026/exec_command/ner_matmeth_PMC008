@@ -1,0 +1,2 @@
+cd /Volumes/Public/BANK/PMC/2026/xml/element/material_method_other
+while read file; do xtq -pBS -n buff=200000000 blocks=100000 in=${file} | grep -e '\[Ty16\]' | awk -F']]]' '{print $5}' | /Volumes/Public/BANK/PMC/2026/exec_command/stanza-cli-S.py --ner > /Volumes/Public/BANK/PMC/2026/ner/element/material_method_other/${file}; done < xml.PMC008xxxxxx.element.material_method_other.filelist.csv
