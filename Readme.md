@@ -111,5 +111,6 @@ xmlタグの除去等のクリーニングを行う。-> タグを落とすと�
 余分な空白が入ってもstanzaのパースに影響はない。
 以下はNERまで一気に行うスクリプト：
 ```sh
-xtq in=PMC466942.xml buff=100000000 -pBS -n|grep -e '\[Ty16\]' | awk -F']]]' '{print $5}' | /Users/kouamano/gitsrc/PMC-NER/2026/exec_command/stanza-cli-S.py --ner > /Users/kouamano/tmp/xtq.txt.ner
+xtq in=PMC466942.xml buff=100000000 -pBS -n|grep -e '\[Ty16\]' | awk -F']]]' '{print $5}' \
+| /Users/kouamano/gitsrc/PMC-NER/2026/exec_command/stanza-cli-S.py --ner > /Users/kouamano/tmp/xtq.txt.ner
 ```
