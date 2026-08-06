@@ -117,4 +117,4 @@ xtq in=PMC466942.xml buff=100000000 -pBS -n|grep -e '\[Ty16\]' | awk -F']]]' '{p
 | /Users/kouamano/gitsrc/PMC-NER/2026/exec_command/stanza-cli-S.py --ner > /Users/kouamano/tmp/xtq.txt.ner
 ```
 
-タグ除去テキストを作成する場合は /Volumes/Public/BANK/PMC/2026/xml/element/{ack|material_method_other}/ 配下に xxx.xml.txt として作成する。
+一旦、タグ除去テキストを作成する場合は /Volumes/Public/BANK/PMC/2026/xml/element/{ack|material_method_other}/ 配下に xxx.xml.txt として作成する。
