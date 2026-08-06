@@ -1,0 +1,2 @@
+cd /Volumes/Public/BANK/PMC/2026/xml/element/ack
+while read file; do xtq -pBS -n buff=100000000 blocks=50000 in=${file} | grep -e '\[Ty16\]' | awk -F']]]' '{print $5}' | /Volumes/Public/BANK/PMC/2026/exec_command/stanza-cli-S.py --ner > /Volumes/Public/BANK/PMC/2026/ner/element/ack/${file}; done < xml.PMC005xxxxxx.element.ack.filelist.csv
