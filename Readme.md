@@ -106,4 +106,10 @@ $ for dir in *; do cd $dir; pwd; ls|wc; cd ../; done
    174186    174186   2961162
 ```
 
-XMLのクリーニング：xmlタグの除去等のクリーニングを行う。
+XMLのクリーニング：
+xmlタグの除去等のクリーニングを行う。-> タグを落とすとタームが接続されるので要素間に空白を挿入する必要がある。xmllintでは面倒なのでxtqとawkを使って整形する。
+余分な空白が入ってもstanzaのパースに影響はない。
+以下はNERまで一気に行うスクリプト：
+```sh
+xtq in=PMC466942.xml buff=100000000 -pBS -n|grep -e '\[Ty16\]' | awk -F']]]' '{print $5}' | /Users/kouamano/gitsrc/PMC-NER/2026/exec_command/stanza-cli-S.py --ner > /Users/kouamano/tmp/xtq.txt.ner
+```
