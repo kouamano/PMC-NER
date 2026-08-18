@@ -49,7 +49,7 @@ OntoNotes5 (Hovy et al., 2006).
 |TIME| Sub-day time expressions.|
 |WORK_OF_ART| Creative works.|
 
-#### 抽出
+### 抽出とタグ付与
 タグ用の検索ターム：
 - 謝辞
   - "ack"
