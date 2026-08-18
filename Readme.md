@@ -25,6 +25,30 @@ OntoNote(5.0)のタグを利用しているらしい。
 - 論文: https://aclanthology.org/2025.findings-acl.172.pdf?utm_source=chatgpt.com (Tab 7)
 - HF: https://huggingface.co/datasets/tner/ontonotes5?utm_source=chatgpt.com
 
+
+Table 7: Statistics of the NER datasets CoNLL03 (Sang and De Meulder, 2003), I2B2 (Murphy et al., 2010) and
+OntoNotes5 (Hovy et al., 2006).
+|Entity type | Definition |
+| --- | --- |
+|CARDINAL| Numerals that do not fall under another type.|
+|DATE| Absolute or relative dates or periods.|
+|EVENT| Named hurricanes, battles, wars, sports events, etc.|
+|FAC| Facility (Buildings, airports, highways, bridges, etc.).|
+|GPE| Geopolitical entities: countries, cities, states.|
+|LANGUAGE| Any named language.|
+|LAW| Named documents made into laws.|
+|LOC| Locations excluding geopolitical entities, mountain ranges, bodies of water.|
+|MONEY| Monetary values, including currency units.|
+|NORP| Nationalities or religious or political groups.|
+|ORDINAL| Ordinal numbers like “first”, “second”.|
+|ORG| Organizations (Companies, agencies, institutions, etc.)|
+|PERCENT| Percentage values (including “%”).|
+|PERSON| Person, including fictional characters.|
+|PRODUCT| Commercial products (Vehicles, weapons, foods; excludes services).|
+|QUANTITY| Measurements, as of weight or distance.|
+|TIME| Sub-day time expressions.|
+|WORK_OF_ART| Creative works.|
+
 #### 抽出
 タグ用の検索ターム：
 - 謝辞
