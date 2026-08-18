@@ -20,6 +20,10 @@ Materials/Method/Acknowledgementに相当するセクション
 以下の一部の集計結果を確認する：
 - /Volumes/Public/BANK/PMC/2026/stat/PMC001xxxxxx/Ty3.count
 - /Volumes/Public/BANK/PMC/2026/stat/PMC003xxxxxx/Ty3.count
+#### NERのタグを確認
+OntoNote(5.0)のタグを利用しているらしい。
+- 論文: https://aclanthology.org/2025.findings-acl.172.pdf?utm_source=chatgpt.com (Tab 7)
+- HF: https://huggingface.co/datasets/tner/ontonotes5?utm_source=chatgpt.com
 
 #### 抽出
 タグ用の検索ターム：
