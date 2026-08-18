@@ -9,7 +9,7 @@ Materials/Method/Acknowledgementに相当するセクション
 
 ## 方法
 ### 対象セクションのセレクション
-#### まず、要素（タグ）の定義を確認
+#### まず、要素（XMLタグ）の定義を確認
 - https://jats.nlm.nih.gov/publishing/tag-library/1.4/index.html
 - https://pmc.ncbi.nlm.nih.gov/tagging-guidelines/article/tags/
 謝辞は<ack>タグ。
@@ -49,8 +49,8 @@ OntoNotes5 (Hovy et al., 2006).
 |TIME| Sub-day time expressions.|
 |WORK_OF_ART| Creative works.|
 
-### 抽出とタグ付与
-タグ用の検索ターム：
+### テキスト抽出とNERタグ付与
+XMLタグ用の検索ターム：
 - 謝辞
   - "ack"
 - 方法
@@ -71,7 +71,7 @@ xmllintでよさそう。 -> 抽出完了
 クリーニング：
 ０バイトファイルがあるのでrmする。 -> クリーニング完了
 
-結果：
+結果出力：
 /Volumes/Public/BANK/PMC/2026/xml/element/{ack|material_method_other} （ファイルリストまで作成済み）
 
 ```sh
@@ -138,7 +138,8 @@ XMLのクリーニング：
 xmlタグの除去等のクリーニングを行う。-> タグを落とすとタームが接続されるので要素間に空白を挿入する必要がある。xmllintでは面倒なのでxtqとawkを使って整形する。
 余分な空白が入ってもstanzaのパースに影響はない。
 
-以下はNERまで一気に行うスクリプト（stanzaを利用可能にしておくこと）：
+NER実行（実行中）：
+以下はNERまで一気に行うスクリプト例（stanzaを利用可能にしておくこと）：
 
 ```sh
 xtq in=PMC466942.xml buff=100000000 -pBS -n|grep -e '\[Ty16\]' | awk -F']]]' '{print $5}' \
