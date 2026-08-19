@@ -12,6 +12,10 @@ Materials/Method/Acknowledgementに相当するセクション
 
 \<NNN\>は"000"~"012"。
 
+ファイルリスト: /Volumes/Public/BANK/PMC/2026/xml/oa_noncomm_xml.PMC\<NNN\>xxxxxx.baseline.2026-01-23.filelist.csv
+
+\<NNN\>は"000"~"012"。
+
 ## 方法
 ### 対象セクションのセレクション
 #### まず、要素（XMLタグ）の定義を確認
