@@ -15,6 +15,13 @@ Materials/Method/Acknowledgementに相当するセクション
 
 \<NNN\>は"000"~"012"。
 
+### テスト用のランダムサンプリング
+- 100: /Volumes/Public/BANK/PMC/2026/xml/pmcRS100.csv
+- 1000: /Volumes/Public/BANK/PMC/2026/xml/pmcRS1k.csv
+- 10000: /Volumes/Public/BANK/PMC/2026/xml/pmcRS10k.csv
+
+1行目はヘッダ、最初のカラムがファイル名（クオートなし）。
+
 ## 方法
 ### 対象セクションのセレクション
 #### まず、要素（XMLタグ）の定義を確認
