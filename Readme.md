@@ -7,6 +7,11 @@
 ## 対象
 Materials/Method/Acknowledgementに相当するセクション
 
+### XML格納先
+/Volumes/Public/BANK/PMC/2026/xml/PMC\<NNN\>xxxxxx/*xml
+
+\<NNN\>は"000"~"012"。
+
 ## 方法
 ### 対象セクションのセレクション
 #### まず、要素（XMLタグ）の定義を確認
@@ -26,8 +31,7 @@ OntoNote(5.0)のタグを利用しているらしい。
 - HF: https://huggingface.co/datasets/tner/ontonotes5?utm_source=chatgpt.com
 
 
-Table 7: Statistics of the NER datasets CoNLL03 (Sang and De Meulder, 2003), I2B2 (Murphy et al., 2010) and
-OntoNotes5 (Hovy et al., 2006).
+Table 7: Statistics of the NER datasets CoNLL03 (Sang and De Meulder, 2003), I2B2 (Murphy et al., 2010) and OntoNotes5 (Hovy et al., 2006).
 |Entity type | Definition |
 | --- | --- |
 |CARDINAL| Numerals that do not fall under another type.|
