@@ -58,7 +58,7 @@ Table 7: Statistics of the NER datasets CoNLL03 (Sang and De Meulder, 2003), I2B
 |WORK_OF_ART| Creative works.|
 
 ### テキスト抽出とNERタグ付与
-XMLタグ用の検索ターム：
+XMLタグ用の検索ターム:
 - 謝辞
   - "ack"
 - 方法
@@ -69,9 +69,9 @@ XMLタグ用の検索ターム：
   - "resource"
   - "object" <- 不採用
 
-検索ポリシー：
+検索ポリシー:
 - 謝辞：\<ack\>を検索
-- 方法・材料：<sec>の属性sec-typeの属性値として検索
+- 方法・材料: <sec>の属性sec-typeの属性値として検索
 
 ツール：
 xmllintでよさそう。 -> 抽出完了
@@ -79,7 +79,7 @@ xmllintでよさそう。 -> 抽出完了
 ファイルクリーニング：
 ０バイトファイルがあるのでrmする。 -> クリーニング完了
 
-結果出力：
+結果出力:
 /Volumes/Public/BANK/PMC/2026/xml/element/{ack|material_method_other} （ファイルリストまで作成済み）
 
 ```sh
@@ -142,11 +142,15 @@ $ for dir in *; do cd $dir; pwd; ls|wc; cd ../; done
    174186    174186   2961162
 ```
 
-XMLクリーニング：
+ファイルクリーニング後のファイルリスト: /Volumes/Public/BANK/PMC/2026/xml/element/{ack|material_method_other}/xml.PMC\<NNN\>xxxxxx.element.{ack|material_method_other}.filelist.csv
+
+\<NNN\>は"000"~"012"。
+
+XMLクリーニング:
 xmlタグの除去等のクリーニングを行う。-> タグを落とすとタームが接続されるので要素間に空白を挿入する必要がある。xmllintでは面倒なのでxtqとawkを使って整形する。
 余分な空白が入ってもstanzaのパースに影響はない。
 
-NER実行（ack完了/実行中）：
+NER実行（ack完了/実行中）:
 
 以下はXMLクリーニングからNERまで一気に行うスクリプト例（stanzaを利用可能にしておくこと）：
 
