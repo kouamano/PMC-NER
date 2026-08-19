@@ -1,5 +1,4 @@
 # PMC(2026)に対してNERをおこなう
-
 ## 目的
 - 実験におけるアクター間の関係を整理する
 - そのため、実験に使われる固有名詞に対してさらにアクタークラスを付与する
@@ -21,19 +20,21 @@ Materials/Method/Acknowledgementに相当するセクション
 #### まず、要素（XMLタグ）の定義を確認
 - https://jats.nlm.nih.gov/publishing/tag-library/1.4/index.html
 - https://pmc.ncbi.nlm.nih.gov/tagging-guidelines/article/tags/
-謝辞は<ack>タグ。
+
+謝辞は\<ack\>タグ。
 方法/材料はいずれもタグ名になっていない。
-したがって<sec>の属性（sec-type）を検索する。
-<sec>の直下の要素に章<title>がある場合がある。
+したがって\<sec\>の属性（sec-type）を検索する。
+\<sec\>の直下の要素に章\<title\>がある場合がある。
+
 #### 利用されているタグを確認
-以下の一部の集計結果を確認する：
+以下の一部の集計結果を確認する:
 - /Volumes/Public/BANK/PMC/2026/stat/PMC001xxxxxx/Ty3.count
 - /Volumes/Public/BANK/PMC/2026/stat/PMC003xxxxxx/Ty3.count
+
 #### NERのタグを確認
 OntoNote(5.0)のタグを利用しているらしい。
 - 論文: https://aclanthology.org/2025.findings-acl.172.pdf?utm_source=chatgpt.com (Tab 7)
 - HF: https://huggingface.co/datasets/tner/ontonotes5?utm_source=chatgpt.com
-
 
 Table 7: Statistics of the NER datasets CoNLL03 (Sang and De Meulder, 2003), I2B2 (Murphy et al., 2010) and OntoNotes5 (Hovy et al., 2006).
 |Entity type | Definition |
