@@ -33,11 +33,6 @@ Materials/Method/Acknowledgementに相当するセクション
 したがって\<sec\>の属性（sec-type）を検索する。
 \<sec\>の直下の要素に章\<title\>がある場合がある。
 
-#### 利用されているタグを確認
-以下の一部の集計結果を確認する:
-- /Volumes/Public/BANK/PMC/2026/stat/PMC001xxxxxx/Ty3.count
-- /Volumes/Public/BANK/PMC/2026/stat/PMC003xxxxxx/Ty3.count
-
 #### NERのタグを確認
 OntoNote(5.0)のタグを利用しているらしい。
 - 論文: https://aclanthology.org/2025.findings-acl.172.pdf?utm_source=chatgpt.com (Tab 7)
