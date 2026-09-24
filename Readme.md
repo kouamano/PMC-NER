@@ -172,3 +172,4 @@ xtq in=PMC466942.xml buff=100000000 -pBS -n|grep -e '\[Ty16\]' | awk -F']]]' '{p
 タグ付与が想定（別資料:研究リソーストラッキングシステム.pptx）通りか確認する。
 
 ### コンパウンド作成とクラスラベル付与
+参考: https://github.com/kouamano/REPO-NER
