@@ -33,9 +33,9 @@ Materials/Method/Acknowledgementに相当するセクション
 したがって\<sec\>の属性（sec-type）を検索する。
 \<sec\>の直下の要素に章\<title\>がある場合がある。
 
-#### NERのタグを確認
-OntoNote(5.0)のタグを利用しているらしい。
-- 論文: https://aclanthology.org/2025.findings-acl.172.pdf?utm_source=chatgpt.com (Tab 7)
+#### NERのラベル（Entity type）を確認
+OntoNote(5.0)のタイプを利用しているらしい。
+- 論文: https://aclanthology.org/2025.findings-acl.172.pdf?utm_source=chatgpt.com (Tab 8)
 - HF: https://huggingface.co/datasets/tner/ontonotes5?utm_source=chatgpt.com
 
 Table 7: Statistics of the NER datasets CoNLL03 (Sang and De Meulder, 2003), I2B2 (Murphy et al., 2010) and OntoNotes5 (Hovy et al., 2006).
@@ -60,7 +60,7 @@ Table 7: Statistics of the NER datasets CoNLL03 (Sang and De Meulder, 2003), I2B
 |TIME| Sub-day time expressions.|
 |WORK_OF_ART| Creative works.|
 
-### テキスト抽出とNERタグ付与
+### テキスト抽出とNERラベル付与
 XMLタグ用の検索ターム:
 - 謝辞
   - "ack"
@@ -168,7 +168,7 @@ xtq in=PMC466942.xml buff=100000000 -pBS -n|grep -e '\[Ty16\]' | awk -F']]]' '{p
 
 結果: /Volumes/Public/BANK/PMC/2026/ner/element/{ack|material_method_other}/PMC\<NNN\>xxxxxx/PMC*.xml
 
-#### NERタグ付与の確認
+#### NERラベル付与の確認
 タグ付与が想定（別資料:研究リソーストラッキングシステム.pptx）通りか確認する。
 
-### コンバインド作成とクラスタグ付与
+### コンパウンド作成とクラスラベル付与
