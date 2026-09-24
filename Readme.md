@@ -164,6 +164,7 @@ xtq in=PMC466942.xml buff=100000000 -pBS -n|grep -e '\[Ty16\]' | awk -F']]]' '{p
 
 一旦、xmlタグ除去テキストを作成する場合は /Volumes/Public/BANK/PMC/2026/xml/element/{ack|material_method_other}/ 配下に xxx.xml.txt として作成する。
 
+スクリプト：/Volumes/Public/BANK/PMC/2026/exec_command/{ner_ack|ner_matmeth}_PMC\<NNN\>
 結果：/Volumes/Public/BANK/PMC/2026/ner/element/{ack|material_method_other}/PMC\<NNN\>xxxxxx/PMC*.xml
 
 #### NERタグ付与の確認
