@@ -3,6 +3,6 @@ NER結果はタームが改行でバラされるので、xmlもしくはテキ�
 ## Kagoshima University
 - Term: "Kagoshima University"
 - Target: 「材料・方法」および「謝辞」パート
-  - /Volumes/Public/BANK/PMC/2026/xml/element/ack/PMC<NNN>xxxxxx/*xml
-  - /Volumes/Public/BANK/PMC/2026/xml/element/material_method_other/PMC<NNN>xxxxxx/*xml
+  - /Volumes/Public/BANK/PMC/2026/xml/element/ack/PMC\<NNN\>xxxxxx/*xml
+  - /Volumes/Public/BANK/PMC/2026/xml/element/material_method_other/PMC\<NNN\>xxxxxx/*xml
 - Result（ファイル名のみ）: /Volumes/Public/BANK/PMC/2026/search/Kagoshima_Univ/
