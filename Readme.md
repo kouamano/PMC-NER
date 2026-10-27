@@ -169,6 +169,8 @@ xtq in=PMC466942.xml buff=100000000 -pBS -n|grep -e '\[Ty16\]' | awk -F']]]' '{p
 
 結果: /Volumes/Public/BANK/PMC/2026/ner/element/{ack|material_method_other}/PMC\<NNN\>xxxxxx/PMC*.xml
 
+データ量（参考）: ack/PMC012xxxxxx で1.3GB
+
 #### NERラベル付与の確認
 タグ付与が想定（別資料:研究リソーストラッキングシステム.pptx）通りか確認する。
 
