@@ -1,0 +1,7 @@
+# examples
+
+##
+(stpf) kouamano@kouamanonoMac-Studio PMC000xxxxxx % python /Users/kouamano/gitsrc/PMC-NER/2026/exec_command/make_dependency_netree.py PMC466942.xml -o tmp.txt.new
+読み込んだ文数: 15
+出力ファイル: tmp.txt.new
+
