@@ -172,6 +172,11 @@ xtq in=PMC466942.xml buff=100000000 -pBS -n|grep -e '\[Ty16\]' | awk -F']]]' '{p
 #### NERラベル付与の確認
 タグ付与が想定（別資料:研究リソーストラッキングシステム.pptx）通りか確認する。
 
+#### 機関名の確認
+grepで"Kagoshima University"を検索：
+- ack 177論文
+- mat_meth 189論文
+
 ### コンパウンド作成とクラスラベル付与
 NERのラベルを見て結合する。
 - 対象ラベル：FAC,GPE,LOC,NORP,ORG,PERSON,PRODUCT,WORK_OF_ART
