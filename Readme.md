@@ -172,7 +172,7 @@ xtq in=PMC466942.xml buff=100000000 -pBS -n|grep -e '\[Ty16\]' | awk -F']]]' '{p
 #### NERラベル付与の確認
 タグ付与が想定（別資料:研究リソーストラッキングシステム.pptx）通りか確認する。
 
-#### 機関名の確認
+#### 機関名記載の確認
 grepで"Kagoshima University"を検索：
 - ack 177論文
 - mat_meth 189論文
