@@ -173,4 +173,8 @@ xtq in=PMC466942.xml buff=100000000 -pBS -n|grep -e '\[Ty16\]' | awk -F']]]' '{p
 タグ付与が想定（別資料:研究リソーストラッキングシステム.pptx）通りか確認する。
 
 ### コンパウンド作成とクラスラベル付与
+NERのラベルを見て結合する。
+- 対象ラベル：FAC,GPE,LOC,NORP,ORG,PERSON,PRODUCT,WORK_OF_ART
+- 形容ラベル：CARDINAL,ORDINAL,QUANTITY
+
 参考: https://github.com/kouamano/REPO-NER
