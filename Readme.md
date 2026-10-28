@@ -198,4 +198,9 @@ NERのラベルを見て結合する。
     - 人名：PERSON
 - 形容ラベル：CARDINAL,ORDINAL,QUANTITY
 
+まずは、連続する同一NERラベルで結合する。
+```
+/Users/kouamano/gitsrc/PMC-NER/2026/exec_command/ack-compound-000.nb
+```
+
 参考: https://github.com/kouamano/REPO-NER
