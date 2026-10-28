@@ -190,6 +190,12 @@ xtq in=PMC466942.xml buff=100000000 -pBS -n|grep -e '\[Ty16\]' | awk -F']]]' '{p
 ### コンパウンド作成とクラスラベル付与
 NERのラベルを見て結合する。
 - 対象ラベル：FAC,GPE,LOC,NORP,ORG,PERSON,PRODUCT,WORK_OF_ART
+  - クラス：
+    - 地域等：GPE,LOC
+    - 組織等：NORP,ORG
+    - 施設・設備：FAC
+    - ツールまたはリソース：PRODUCT,WORK_OF_ART
+    - 人名：PERSON
 - 形容ラベル：CARDINAL,ORDINAL,QUANTITY
 
 参考: https://github.com/kouamano/REPO-NER
