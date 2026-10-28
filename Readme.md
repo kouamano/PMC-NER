@@ -179,6 +179,9 @@ xtq in=PMC466942.xml buff=100000000 -pBS -n|grep -e '\[Ty16\]' | awk -F']]]' '{p
 
 #### 機関名記載の確認
 grepで"Kagoshima University"を検索：
+```
+/share/Public/BANK/PMC/2026/search/Kagoshima_Univ/
+```
 - ack 177論文
 - mat_meth 189論文
 
