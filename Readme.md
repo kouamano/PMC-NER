@@ -147,6 +147,7 @@ $ for dir in *; do cd $dir; pwd; ls|wc; cd ../; done
 /share/Public/BANK/PMC/2026/xml/element/material_method_other/PMC012xxxxxx
    174186    174186   2961162
 ```
+1204517論文。
 
 ファイルクリーニング後のファイルリスト: /Volumes/Public/BANK/PMC/2026/xml/element/{ack|material_method_other}/xml.PMC\<NNN\>xxxxxx.element.{ack|material_method_other}.filelist.csv
 
