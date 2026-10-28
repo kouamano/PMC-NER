@@ -185,6 +185,8 @@ xtq in=PMC466942.xml buff=100000000 -pBS -n|grep -e '\[Ty16\]' | awk -F']]]' '{p
 - ack 177論文
 - mat_meth 189論文
 
+チェックはコンパウンド作成後。
+
 ### コンパウンド作成とクラスラベル付与
 NERのラベルを見て結合する。
 - 対象ラベル：FAC,GPE,LOC,NORP,ORG,PERSON,PRODUCT,WORK_OF_ART
