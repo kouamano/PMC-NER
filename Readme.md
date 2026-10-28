@@ -15,6 +15,7 @@ Materials/Method/Acknowledgementに相当するセクション
 ファイルリスト: /Volumes/Public/BANK/PMC/2026/xml/oa_noncomm_xml.PMC\<NNN\>xxxxxx.baseline.2026-01-23.filelist.csv
 
 \<NNN\>は"000"~"012"。
+2131574 論文。
 
 ### テスト用のランダムサンプリング
 - 100: /Volumes/Public/BANK/PMC/2026/xml/pmcRS100.csv
@@ -115,6 +116,7 @@ $ for dir in *; do cd $dir; pwd; ls|wc; cd ../; done
 /share/Public/BANK/PMC/2026/xml/element/ack/PMC012xxxxxx
    163364    163364   2777188
 ```
+1100991論文。
 
 ```sh
 $ for dir in *; do cd $dir; pwd; ls|wc; cd ../; done           
