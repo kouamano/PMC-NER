@@ -198,10 +198,14 @@ NERのラベルを見て結合する。
     - 人名：PERSON
 - 形容ラベル：CARDINAL,ORDINAL,QUANTITY
 
-まずは、連続する同一NERラベルで結合する。
+#### コンパウンド作成
+まずは、連続する同一NERラベルで結合する。実施中。
 Wolframを用いて10万件で十数分かかる。1000件でも10分弱。ほとんどがファイルR/W時間なのでどのツールを使っても並列化・高速化困難。
-```
-/Users/kouamano/gitsrc/PMC-NER/2026/exec_command/ack-compound-000.nb
-```
+
+スクリプト(ack): /Users/kouamano/gitsrc/PMC-NER/2026/exec_command/ack-compound-\<NNN\>.nb
+スクリプト(matmeth): /Users/kouamano/gitsrc/PMC-NER/2026/exec_command/matmeth-compound-\<NNN\>.nb
+
+結果(ack): /Volumes/Public/BANK/PMC/2026/ner/element/ack/PMC\<NNN\>xxxxxx/ 配下
+結果(matmeth): /Volumes/Public/BANK/PMC/2026/ner/element/material_method_other/PMC\<NNN\>xxxxxx/ 配下
 
 参考: https://github.com/kouamano/REPO-NER
