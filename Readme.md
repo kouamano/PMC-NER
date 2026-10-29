@@ -199,7 +199,7 @@ NERのラベルを見て結合する。
 - 形容ラベル：CARDINAL,ORDINAL,QUANTITY
 
 まずは、連続する同一NERラベルで結合する。
-Wolframを用いて10万件で10min少しかかる。ほとんどがファイル読み込み時間なのでどのツールを使っても高速化困難。
+Wolframを用いて10万件で十数分かかる。1000件でも10分弱。ほとんどがファイルR/W時間なのでどのツールを使っても並列化・高速化困難。
 ```
 /Users/kouamano/gitsrc/PMC-NER/2026/exec_command/ack-compound-000.nb
 ```
