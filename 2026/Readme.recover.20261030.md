@@ -118,7 +118,7 @@ ssh接続も切れていたことからネットワークを疑う。
 
 再実行中。
 - 対象dir: /share/Public/BANK/PMC/2026/ner/element/material_method_other/PMC007xxxxxx/
-- ファイル数: 98675
+- ファイル数: 91319
 - 対象ファイル:
   - *.con.json : 
   ```
