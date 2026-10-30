@@ -187,7 +187,7 @@ xtq in=PMC466942.xml buff=100000000 -pBS -n|grep -e '\[Ty16\]' | awk -F']]]' '{p
 
 チェックはコンパウンド作成後。
 
-少なくとも何件かはキャッチできているのでよしとする。
+少なくとも何件かはキャッチできているのでよしとする@PMC002xxxxxx。
 ```
 $ find . -type f -name '*con.json'|xargs grep -i 'Kagoshima'
 
