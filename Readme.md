@@ -187,6 +187,16 @@ xtq in=PMC466942.xml buff=100000000 -pBS -n|grep -e '\[Ty16\]' | awk -F']]]' '{p
 
 チェックはコンパウンド作成後。
 
+少なくとも何件かはキャッチできているのでよしとする。
+```
+$ find . -type f -name '*con.json'|xargs grep -i 'Kagoshima'
+
+./PMC2811839.con.json:			"Kagoshima University",
+./PMC2811839.con.json:			"Kagoshima University",
+./PMC2811839.con.json:			"Kagoshima University",
+./PMC2396877.con.json:			"H Kagoshima",
+```
+
 ### コンパウンド作成とクラスラベル付与
 NERのラベルを見て結合する。
 - 対象ラベル：FAC,GPE,LOC,NORP,ORG,PERSON,PRODUCT,WORK_OF_ART
