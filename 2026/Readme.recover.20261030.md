@@ -69,7 +69,7 @@ ssh接続も切れていたことからネットワークを疑う。
    #出力なし
   ```
   
-  - *.uxn.json : 
+  - *.uxn.json : OK
   ```
   $ find . -type f -name '*uxn.json'| wc
       87129     87129   1916838
@@ -84,9 +84,40 @@ ssh接続も切れていたことからネットワークを疑う。
 
 ### matmeth-compound-006.nb
 途中でエラーが出ている。まず、エラー部分を再実行する。
+再実行完了。
+- 対象dir: /share/Public/BANK/PMC/2026/ner/element/material_method_other/PMC006xxxxxx/
+- ファイル数: 98675
+- 対象ファイル:
+  - *.con.json : OK
+  ```
+  $ find . -type f -name '*con.json'| wc
+      98675     98675   2170850
+  
+  $ find . -type f -name '*con.json'| xargs ls -l
+   ...
+  
+  $ find . -type f -name '*con.json' -size 0
+   #出力なし
+  ```
+  
+  - *.uxn.json : OK
+  ```
+  $ find . -type f -name '*uxn.json'| wc
+      98675     98675   2170850
+
+  $ find . -type f -name '*uxn.json'| xargs ls -l
+   ...
+
+  $ find . -type f -name '*uxn.json' -size 0
+   #出力なし
+  ```
+- nbをsaveしてclose
+
+### matmeth-compound-007.nb
+途中でエラーが出ている。まず、エラー部分を再実行する。
 
 再実行中。
-- 対象dir: /share/Public/BANK/PMC/2026/ner/element/material_method_other/PMC005xxxxxx/
+- 対象dir: /share/Public/BANK/PMC/2026/ner/element/material_method_other/PMC007xxxxxx/
 - ファイル数: 98675
 - 対象ファイル:
   - *.con.json : 
@@ -98,7 +129,7 @@ ssh接続も切れていたことからネットワークを疑う。
    ...
   
   $ find . -type f -name '*con.json' -size 0
-   
+  
   ```
   
   - *.uxn.json : 
