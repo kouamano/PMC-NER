@@ -213,6 +213,6 @@ Wolframを用いて10万件で十数分かかる。1000件でも10分弱。ほ�
 
 結果(matmeth): /Volumes/Public/BANK/PMC/2026/ner/element/material_method_other/PMC\<NNN\>xxxxxx/ 配下に複数種類のファイル
 
-参考: https://github.com/kouamano/REPO-NER
-
 例外: 処理できないファイルがある模様、確認しておく。
+
+参考: https://github.com/kouamano/REPO-NER
