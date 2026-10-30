@@ -75,7 +75,8 @@ Mathematicaで計算・export中にNASの接続が切れている。
 
 ### matmeth-compound-006.nb
 途中でエラーが出ている。まず、エラー部分を再実行する。
-際実行中。
+
+再実行中。
 - 対象dir: /share/Public/BANK/PMC/2026/ner/element/material_method_other/PMC005xxxxxx/
 - ファイル数: 98675
 - 対象ファイル:
