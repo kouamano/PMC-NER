@@ -16,21 +16,21 @@ Mathematicaで計算・export中にNASの接続が切れている。
 マウントディレクトリからでは遅いのでQNAPにloginする。
 - 対象dir: /share/Public/BANK/PMC/2026/ner/element/material_method_other/PMC004xxxxxx/
 - ファイル数: 86909
-- 対象ファイル: 
-
+- 対象ファイル:
+- 
   - *.con.json
-```
-$ find . -type f -name '*con.json'| wc
-    86909     86909   1911998
-
-$ find . -type f -name '*con.json'| xargs ls -l
--rwxrwx--- 1 kouamano everyone  26101 2026-10-29 17:47 ./PMC4973646.con.json
--rwxrwx--- 1 kouamano everyone  24168 2026-10-29 17:08 ./PMC4974194.con.json
-
-$ $ find . -type f -name '*con.json' -size 0
- #出力なし
-```
+  ```
+  $ find . -type f -name '*con.json'| wc
+      86909     86909   1911998
+  
+  $ find . -type f -name '*con.json'| xargs ls -l
+  -rwxrwx--- 1 kouamano everyone  26101 2026-10-29 17:47 ./PMC4973646.con.json
+  -rwxrwx--- 1 kouamano everyone  24168 2026-10-29 17:08 ./PMC4974194.con.json
+  
+  $ find . -type f -name '*con.json' -size 0
+   #出力なし
+  ```
   - *.uxn.json
-```
-
-```
+  ```
+  
+  ```
