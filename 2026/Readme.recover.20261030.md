@@ -42,3 +42,33 @@ Mathematicaで計算・export中にNASの接続が切れている。
    #出力なし
   ```
 - nbをsaveしてclose
+
+### matmeth-compound-005.nb
+マウントディレクトリからでは遅いのでQNAPにloginする。
+- 対象dir: /share/Public/BANK/PMC/2026/ner/element/material_method_other/PMC005xxxxxx/
+- ファイル数: 87129
+- 対象ファイル:
+  - *.con.json : OK
+  ```
+  $ find . -type f -name '*con.json'| wc
+      87129     87129   1916838
+  
+  $ find . -type f -name '*con.json'| xargs ls -l
+   ...
+  
+  $ find . -type f -name '*con.json' -size 0
+   #出力なし
+  ```
+  
+  - *.uxn.json : 
+  ```
+  $ find . -type f -name '*uxn.json'| wc
+      87129     87129   1916838
+
+  $ find . -type f -name '*uxn.json'| xargs ls -l
+   ...
+
+  $ find . -type f -name '*uxn.json' -size 0
+   #出力なし
+  ```
+- nbをsaveしてclose
