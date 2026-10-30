@@ -17,7 +17,7 @@ Mathematicaで計算・export中にNASの接続が切れている。
 - 対象dir: /share/Public/BANK/PMC/2026/ner/element/material_method_other/PMC004xxxxxx/
 - ファイル数: 86909
 - 対象ファイル:
-  - *.con.json
+  - *.con.json : OK
   ```
   $ find . -type f -name '*con.json'| wc
       86909     86909   1911998
@@ -30,7 +30,15 @@ Mathematicaで計算・export中にNASの接続が切れている。
    #出力なし
   ```
   
-  - *.uxn.json
+  - *.uxn.json : OK
   ```
-  
+  $ find . -type f -name '*uxn.json'| wc
+    86909     86909   1911998
+
+  $ find . -type f -name '*uxn.json'| xargs ls -l
+   ...
+
+  $ find . -type f -name '*uxn.json' -size 0
+   #出力なし
   ```
+- nbをsaveしてclose
