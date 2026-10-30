@@ -17,7 +17,6 @@ Mathematicaで計算・export中にNASの接続が切れている。
 - 対象dir: /share/Public/BANK/PMC/2026/ner/element/material_method_other/PMC004xxxxxx/
 - ファイル数: 86909
 - 対象ファイル:
-- 
   - *.con.json
   ```
   $ find . -type f -name '*con.json'| wc
