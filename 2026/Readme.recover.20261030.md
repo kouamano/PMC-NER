@@ -120,27 +120,27 @@ ssh接続も切れていたことからネットワークを疑う。
 - 対象dir: /share/Public/BANK/PMC/2026/ner/element/material_method_other/PMC007xxxxxx/
 - ファイル数: 91319
 - 対象ファイル:
-  - *.con.json : 
+  - *.con.json : OK
   ```
   $ find . -type f -name '*con.json'| wc
-  
+      91319     91319   2009018
   
   $ find . -type f -name '*con.json'| xargs ls -l
    ...
   
   $ find . -type f -name '*con.json' -size 0
-  
+   #出力なし
   ```
   
-  - *.uxn.json : 
+  - *.uxn.json : OK
   ```
   $ find . -type f -name '*uxn.json'| wc
-  
+      91319     91319   2009018
 
   $ find . -type f -name '*uxn.json'| xargs ls -l
    ...
 
   $ find . -type f -name '*uxn.json' -size 0
-  
+   #出力なし
   ```
 - nbをsaveしてclose
