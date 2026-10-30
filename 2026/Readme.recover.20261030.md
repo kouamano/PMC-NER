@@ -19,7 +19,6 @@ Mathematicaで計算・export中にNASの接続が切れている。
 - 対象ファイル: 
 
   - *.con.json
-
 ```
 $ find . -type f -name '*con.json'| wc
     86909     86909   1911998
@@ -31,9 +30,7 @@ $ find . -type f -name '*con.json'| xargs ls -l
 $ $ find . -type f -name '*con.json' -size 0
  #出力なし
 ```
-
   - *.uxn.json
-
 ```
 
 ```
