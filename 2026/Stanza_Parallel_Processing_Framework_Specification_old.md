@@ -1,4 +1,4 @@
-# Stanza Parallel Processing Framework Specification (Version 1.0)
+# Stanza Parallel Processing Framework Specification (Old)
 
 ## 1. Purpose
 
