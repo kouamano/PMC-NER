@@ -249,5 +249,10 @@ Wolframを用いて10万件で2時間程度。1000件でも10分程度。ほと�
   $ find . -type f -name '*uxn.json' -size 0|wc
     929       929     21367 #uxnも同じ
   ```
+  
+- matmeth-compound-012.nb
+ 
+- ack-compound-012.nb
+
 
 参考: https://github.com/kouamano/REPO-NER
