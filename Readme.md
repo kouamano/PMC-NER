@@ -238,7 +238,7 @@ Wolframを用いて10万件で2時間程度。1000件でも10分程度。ほと�
   ```
 
 - matmeth-compound-011.nb
-
+  
   login to qnap
   ```
   $ cd /share/Public/BANK/PMC/2026/ner/element/material_method_other/PMC011xxxxxx
@@ -251,7 +251,7 @@ Wolframを用いて10万件で2時間程度。1000件でも10分程度。ほと�
   ```
 
 - matmeth-compound-012.nb
- 
+  
   login to qnap
   ```
   $ cd /share/Public/BANK/PMC/2026/ner/element/material_method_other/PMC012xxxxxx
@@ -264,6 +264,16 @@ Wolframを用いて10万件で2時間程度。1000件でも10分程度。ほと�
   ```
 
 - ack-compound-012.nb
-
+  
+  login to qnap
+  ```
+  $ cd /share/Public/BANK/PMC/2026/ner/element/ack/PMC012xxxxxx
+  $ find . -type f -name '*con.json'| wc
+    163364    163364   3757372 #ファイルは全て作成されている
+  $ find . -type f -name '*con.json' -size 0|wc
+    317       317      7291 #JSONコンバートできなかったものは空ファイルになっている
+  $ find . -type f -name '*uxn.json' -size 0|wc
+    317       317      7291 #uxnも同じ
+  ```
 
 参考: https://github.com/kouamano/REPO-NER
