@@ -263,9 +263,18 @@ Wolframを用いて10万件で2時間程度。1000件でも10分程度。ほと�
     927       927     21321 #uxnも同じ
   ```
 
-
 - ack-compound-011.nb
 
+  login to qnap
+  ```
+  $ cd /share/Public/BANK/PMC/2026/ner/element/material_method_other/PMC011xxxxxx
+  $ find . -type f -name '*con.json'| wc
+    179586    179586   4130478 #ファイルは全て作成されている
+  $ find . -type f -name '*con.json' -size 0|wc
+    1563      1563     35949 #JSONコンバートできなかったものは空ファイルになっている
+  $ find . -type f -name '*uxn.json' -size 0|wc
+    1563      1563     35949 #uxnも同じ
+  ```
 
 - ack-compound-012.nb
   
