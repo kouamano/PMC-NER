@@ -263,6 +263,10 @@ Wolframを用いて10万件で2時間程度。1000件でも10分程度。ほと�
     927       927     21321 #uxnも同じ
   ```
 
+
+- ack-compound-011.nb
+
+
 - ack-compound-012.nb
   
   login to qnap
