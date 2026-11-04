@@ -237,4 +237,17 @@ Wolframを用いて10万件で2時間程度。1000件でも10分程度。ほと�
     ./PMC8257503.uxn.json #uxnも同じ
   ```
 
+- matmeth-compound-011.nb
+
+  login to qnap
+  ```
+  $ cd /share/Public/BANK/PMC/2026/ner/element/material_method_other/PMC011xxxxxx
+  $ find . -type f -name '*con.json'| wc
+    193707    193707   4455261 #ファイルは全て作成されている
+  $ find . -type f -name '*con.json' -size 0|wc
+    929       929     21367 #JSONコンバートできなかったものは空ファイルになっている
+  $ find . -type f -name '*uxn.json' -size 0|wc
+    929       929     21367 #uxnも同じ
+  ```
+
 参考: https://github.com/kouamano/REPO-NER
