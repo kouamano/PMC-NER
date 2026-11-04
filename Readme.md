@@ -249,9 +249,20 @@ Wolframを用いて10万件で2時間程度。1000件でも10分程度。ほと�
   $ find . -type f -name '*uxn.json' -size 0|wc
     929       929     21367 #uxnも同じ
   ```
-  
+
 - matmeth-compound-012.nb
  
+  login to qnap
+  ```
+  $ cd /share/Public/BANK/PMC/2026/ner/element/material_method_other/PMC012xxxxxx
+  $ find . -type f -name '*con.json'| wc
+    174186    174186   4006278 #ファイルは全て作成されている
+  $ find . -type f -name '*con.json' -size 0|wc
+    927       927     21321 #JSONコンバートできなかったものは空ファイルになっている
+  $ find . -type f -name '*uxn.json' -size 0|wc
+    927       927     21321 #uxnも同じ
+  ```
+
 - ack-compound-012.nb
 
 
