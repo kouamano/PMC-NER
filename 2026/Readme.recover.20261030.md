@@ -84,7 +84,7 @@ ssh接続も切れていたことからネットワークを疑う。
 
 ### matmeth-compound-006.nb
 途中でエラーが出ている。まず、エラー部分を再実行する。
-再実行完了。
+
 - 対象dir: /share/Public/BANK/PMC/2026/ner/element/material_method_other/PMC006xxxxxx/
 - ファイル数: 98675
 - 対象ファイル:
@@ -116,7 +116,6 @@ ssh接続も切れていたことからネットワークを疑う。
 ### matmeth-compound-007.nb
 途中でエラーが出ている。まず、エラー部分を再実行する。
 
-再実行中。
 - 対象dir: /share/Public/BANK/PMC/2026/ner/element/material_method_other/PMC007xxxxxx/
 - ファイル数: 91319
 - 対象ファイル:
