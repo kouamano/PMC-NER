@@ -209,7 +209,7 @@ NERのラベルを見て結合する。
 - 形容ラベル：CARDINAL,ORDINAL,QUANTITY
 
 #### コンパウンド自動作成
-まずは、連続する同一NERラベルで結合する。実施中。
+まずは、連続する同一NERラベルで結合する。
 Wolframを用いて10万件で2時間程度。1000件でも10分程度。ほとんどがNASのファイルR/W時間なのでどのツールを使っても並列化・高速化困難。（計算そのものは1~2分で終わる模様）
 
 - コンパウンド文（con）
@@ -219,11 +219,12 @@ Wolframを用いて10万件で2時間程度。1000件でも10分程度。ほと�
 
 スクリプト(matmeth): /Users/kouamano/gitsrc/PMC-NER/2026/exec_command/matmeth-compound-\<NNN\>.nb
 
-結果(ack): /Volumes/Public/BANK/PMC/2026/ner/element/ack/PMC\<NNN\>xxxxxx/ 配下に複数種類のファイル
+結果(ack): /Volumes/Public/BANK/PMC/2026/ner/element/ack/PMC\<NNN\>xxxxxx/ 配下に複数種類のファイル、有効件数：1,099,111件
 
-結果(matmeth): /Volumes/Public/BANK/PMC/2026/ner/element/material_method_other/PMC\<NNN\>xxxxxx/ 配下に複数種類のファイル
+結果(matmeth): /Volumes/Public/BANK/PMC/2026/ner/element/material_method_other/PMC\<NNN\>xxxxxx/ 配下に複数種類のファイル、有効件数：1,202,660件
 
-例外: 処理できないファイルがある模様、確認しておく。
+
+例外: 処理できないファイルがある模様、確認しておく。 → 0バイトファイルとなっている
 - matmeth-compound-008.nb
   
   login to qnap
